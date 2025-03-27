@@ -60,13 +60,13 @@ class _CreatetaskState extends State<Createtask> {
     // HoldData _holdData;
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(onPressed: ()=> {}, icon: Icon(Icons.menu), color: Colors.white,),
+        leading: IconButton(onPressed: ()=> {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => TodoApp()))
+        }, icon: Icon(Icons.arrow_back), color: Colors.white,),
         title: Text("To Do App", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 25,),),
         centerTitle: true,
         backgroundColor:  Color(0xFF1C1B33),
-        actions: [
-          IconButton(onPressed: ()=> {}, icon: Icon(Icons.search),color: Colors.white,),
-        ],
+        
       ),
       body: SafeArea(
         child: Center(
