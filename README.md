@@ -1,16 +1,12 @@
-# todo_list_app
+𝐅𝐥𝐮𝐭𝐭𝐞𝐫 𝐓𝐨-𝐃𝐨 𝐀𝐩𝐩 📝
+A simple and intuitive To-Do app built with Flutter, featuring user authentication, task management, and a clean UI. Users can log in, add tasks, mark them as completed, and manage their daily to-dos efficiently.
 
-A new Flutter project.
+𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬:
+✅ User authentication (Login & Signup)
+✅ Add, edit, and delete tasks
+✅ Task completion tracking
+✅ Clean and responsive UI
 
-## Getting Started
+Built using Flutter & Firebase (or your chosen backend).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feel free to modify it based on your app’s exact features! 🚀
